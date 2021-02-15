@@ -5,7 +5,7 @@ numBob = 0
 
 for i in range(len(s)):
     if s[i:i+3] == "bob":
-        ## Check the current char + the next three chars.
+        # [i:i+3] checks the current char + the next three chars.
         numBob += 1
 
 print ('Number of times bob occurs is: ' + str(numBob))
